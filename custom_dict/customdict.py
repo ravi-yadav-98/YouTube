@@ -44,8 +44,6 @@ num_dict = CaseInsensitiveDict()
 
 
 
-
-
 class DefaultDict(UserDict):
     def __init__(self, default_val = None):
         super().__init__()
@@ -62,7 +60,6 @@ class DefaultDict(UserDict):
 
     
 
-   
     
 
 my_dict = DefaultDict(-1)
