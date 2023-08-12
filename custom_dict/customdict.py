@@ -43,7 +43,6 @@ num_dict = CaseInsensitiveDict()
 # print(num_dict['fouR'])
 
 
-
 class DefaultDict(UserDict):
     def __init__(self, default_val = None):
         super().__init__()
@@ -58,10 +57,7 @@ class DefaultDict(UserDict):
     def pop(self, key = None):
         raise RuntimeError("You Can not delete item.. ")
 
-    
-
-    
-
+   
 my_dict = DefaultDict(-1)
 my_dict['One'] = 1 #setime
 my_dict['Two'] = 2
