@@ -15,7 +15,7 @@ import streamlit as st
 import os
 openai_key = os.environ.get('OPENAI_API_KEY')
 print(openai_key)
-pinecone_key = 'd96027e7-02ad-468b-870a-1b6837e43b32'
+pinecone_key = 'pine cone api key'
 pinecone_env = 'gcp-starter'
 
 
